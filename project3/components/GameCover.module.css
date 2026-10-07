@@ -1,0 +1,18 @@
+.cover {
+  position: relative;
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  border-radius: 14px;
+  background: var(--fill);
+  box-shadow: 0 0 0 0.5px var(--hairline);
+}
+
+.backdrop {
+  object-fit: cover;
+  filter: blur(24px) saturate(1.4);
+  transform: scale(1.25);
+}
+
+.image {
+  object-fit: contain;
+}

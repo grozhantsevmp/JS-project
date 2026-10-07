@@ -1,0 +1,62 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.6em;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.large {
+  min-width: 3em;
+  padding: 6px 14px;
+  font-size: 1.1rem;
+}
+
+.high {
+  color: #248a3d;
+  background: rgba(52, 199, 89, 0.15);
+}
+
+.mid {
+  color: #b25000;
+  background: rgba(255, 159, 10, 0.17);
+}
+
+.low {
+  color: #d70015;
+  background: rgba(255, 59, 48, 0.14);
+}
+
+@media (prefers-color-scheme: dark) {
+  .high {
+    color: #30d158;
+  }
+
+  .mid {
+    color: #ffb340;
+  }
+
+  .low {
+    color: #ff6961;
+  }
+}
+
+.solid {
+  color: #fff;
+}
+
+.solid.high {
+  background: #34c759;
+}
+
+.solid.mid {
+  background: #ff9f0a;
+}
+
+.solid.low {
+  background: #ff3b30;
+}
